@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;  
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding:50px ;
+    margin: 0 auto;
+}
+
+/* .container{
+    padding: 40px;
+    width:100%;
+    margin: 0 auto;
+    height: 100%;
+} */
+
+.rounded{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box{
+    padding: 30px;
+    background-color: rgb(250, 244, 245);
+   border-radius: 10px;
+   width: 100%;
+}
+
+.pre_heading{
+    font-size: 18px;
+    font-weight: bold;
+     color: rgb(143, 5, 143);
+
+}
+
+.list li{
+    line-height: 30px;
+}
+
+    
+.red{
+    color: rgba(107, 49, 49, 0.897);
+}
+
+.nutrition{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.nutrition td {
+    padding: 12px 0;
+    border-bottom: 1px solid #add; 
+}
+
+.nutrition .value {
+    text-align: right;
+    font-weight: bold;
+    color: brown; 
+}
+
+.image_box{
+    width:100%;
+    height:380px;
+}
+.recepie-heading, p, h1{
+    width:100%;
+}
